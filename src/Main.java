@@ -9,5 +9,7 @@ public class Main {
         System.out.println("book1.getPublicationYear() = " + book1.getPublicationYear());
         book1.setPublicationYear(1999);
         System.out.println("book1.getPublicationYear() = " + book1.getPublicationYear());
+
+        System.out.println(book1);
     }
 }
