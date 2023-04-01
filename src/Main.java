@@ -11,5 +11,7 @@ public class Main {
         System.out.println("book1.getPublicationYear() = " + book1.getPublicationYear());
 
         System.out.println(book1);
+        System.out.println(book1.equals(book2));
+        System.out.println(book2.hashCode());
     }
 }
